@@ -84,7 +84,7 @@ static const CGFloat kLabelsVerticalGap = 6; // label之间的垂直间距
         [self addSubview:_headerView];
         
         _verticalLine = [[UIView alloc] init];
-        _verticalLine.width = 1;
+        _verticalLine.width = 1 / UIScreen.mainScreen.scale;
         _verticalLine.backgroundColor = [UIColor lightGrayColor];
         [self addSubview:_verticalLine];
     }
