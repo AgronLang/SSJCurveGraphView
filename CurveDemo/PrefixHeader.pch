@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  CurveDemo
+//
+//  Created by old lang on 2018/3/21.
+//  Copyright © 2018年 ShanghaiWinTech. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//#import "Config.h"
+#import "Macro.h"
+#import "SSJUtil.h"
+#import "SSJArrayAddition.h"
+#import "SSJLayerAddition.h"
+#import "SSJViewAddition.h"
+#import "NSString+MoneyDisplayFormat.h"
+
+#endif /* PrefixHeader_pch */
