@@ -21,12 +21,40 @@ NS_ASSUME_NONNULL_BEGIN
 - (double)curveGraphView:(SSJCurveGraphView *)graphView valueForCurveAtIndex:(NSUInteger)curveIndex axisXIndex:(NSUInteger)axisXIndex;
 
 @optional
+
+/**
+ 返回展示多少条曲线
+
+ @param graphView <#graphView description#>
+ @return <#return value description#>
+ */
 - (NSUInteger)numberOfCurveInCurveGraphView:(SSJCurveGraphView *)graphView;
 
+/**
+ X轴下方显示的标题
+
+ @param graphView <#graphView description#>
+ @param index <#index description#>
+ @return <#return value description#>
+ */
 - (nullable NSString *)curveGraphView:(SSJCurveGraphView *)graphView titleAtAxisXIndex:(NSUInteger)index;
 
+/**
+ 返回曲线的颜色
+
+ @param graphView <#graphView description#>
+ @param curveIndex <#curveIndex description#>
+ @return <#return value description#>
+ */
 - (nullable UIColor *)curveGraphView:(SSJCurveGraphView *)graphView colorForCurveAtIndex:(NSUInteger)curveIndex;
 
+/**
+ X轴下方悬浮的标题
+
+ @param graphView <#graphView description#>
+ @param index <#index description#>
+ @return <#return value description#>
+ */
 - (nullable NSString *)curveGraphView:(SSJCurveGraphView *)graphView suspensionTitleAtAxisXIndex:(NSUInteger)index;
 
 /**
@@ -63,9 +91,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SSJCurveGraphView : UIView
 
-@property (nonatomic, weak) id <SSJCurveGraphViewDataSource> dataSource;
+@property (nonatomic, weak) id<SSJCurveGraphViewDataSource> dataSource;
 
-@property (nonatomic, weak) id <SSJCurveGraphViewDelegate> delegate;
+@property (nonatomic, weak) id<SSJCurveGraphViewDelegate> delegate;
 
 /**
  X轴每个刻度之间的距离，默认50

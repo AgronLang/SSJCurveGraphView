@@ -45,13 +45,16 @@
         [self.contentView addSubview:_titleLabel];
         
         self.backgroundView = [[UIView alloc] init];
+//        self.clipsToBounds = NO;
+//        self.contentView.clipsToBounds = NO;
     }
     return self;
 }
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    _titleLabel.frame = self.contentView.bounds;
+    [_titleLabel sizeToFit];
+    _titleLabel.center = CGPointMake(self.contentView.width * 0.5, self.contentView.height * 0.5);
 }
 
 - (void)setItem:(SSJCurveSuspensionViewItem *)item {

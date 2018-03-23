@@ -101,7 +101,7 @@
 }
 
 - (nullable NSString *)curveGraphView:(SSJCurveGraphView *)graphView titleAtAxisXIndex:(NSUInteger)index {
-    return [NSString stringWithFormat:@"scale%d", (int)index];
+    return [NSString stringWithFormat:@"%d", (int)index];
 }
 
 - (nullable UIColor *)curveGraphView:(SSJCurveGraphView *)graphView colorForCurveAtIndex:(NSUInteger)curveIndex {
@@ -109,8 +109,8 @@
 }
 
 - (nullable NSString *)curveGraphView:(SSJCurveGraphView *)graphView suspensionTitleAtAxisXIndex:(NSUInteger)index {
-    if (index == 1) {
-        return @"title1";
+    if (index == 0) {
+        return @"suspensionTitle";
     } else {
         return nil;
     }
