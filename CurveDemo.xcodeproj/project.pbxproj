@@ -13,18 +13,18 @@
 		7D6DA85C20623D600036BBA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DA85B20623D600036BBA0 /* main.m */; };
 		7D6DA86620623D600036BBA0 /* CurveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DA86520623D600036BBA0 /* CurveDemoTests.m */; };
 		7D6DA87120623D600036BBA0 /* CurveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DA87020623D600036BBA0 /* CurveDemoUITests.m */; };
-		7D6DA88D20623D7C0036BBA0 /* SSJCurveGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DA88120623D7C0036BBA0 /* SSJCurveGraphView.m */; };
 		7D6DA89920623DC10036BBA0 /* SSJLayerAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DA89520623DC10036BBA0 /* SSJLayerAddition.m */; };
 		7D6DA89A20623DC10036BBA0 /* SSJViewAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DA89620623DC10036BBA0 /* SSJViewAddition.m */; };
 		7D6DA8A020623EF80036BBA0 /* SSJArrayAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DA89E20623EF80036BBA0 /* SSJArrayAddition.m */; };
 		7D6DA8A420623F810036BBA0 /* NSString+MoneyDisplayFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DA8A220623F810036BBA0 /* NSString+MoneyDisplayFormat.m */; };
 		7D6DA8A720623FC80036BBA0 /* SSJUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DA8A620623FC80036BBA0 /* SSJUtil.m */; };
-		7DD53DE1206495B90027B178 /* SSJCurveDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD53DD5206495B90027B178 /* SSJCurveDot.m */; };
-		7DD53DE2206495B90027B178 /* SSJCurveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD53DD7206495B90027B178 /* SSJCurveCell.m */; };
-		7DD53DE3206495B90027B178 /* SSJCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD53DDA206495B90027B178 /* SSJCurveView.m */; };
-		7DD53DE4206495B90027B178 /* SSJCurveSuspensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD53DDD206495B90027B178 /* SSJCurveSuspensionView.m */; };
-		7DD53DE5206495B90027B178 /* SSJCurveAnchorSuspensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD53DDF206495B90027B178 /* SSJCurveAnchorSuspensionView.m */; };
-		7DD53DE6206495B90027B178 /* SSJCurveGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD53DE0206495B90027B178 /* SSJCurveGridView.m */; };
+		7D7C53462064B30C005546DE /* SSJCurveDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C53382064B30C005546DE /* SSJCurveDot.m */; };
+		7D7C53472064B30C005546DE /* SSJCurveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C533A2064B30C005546DE /* SSJCurveCell.m */; };
+		7D7C53482064B30C005546DE /* SSJCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C533D2064B30C005546DE /* SSJCurveView.m */; };
+		7D7C53492064B30C005546DE /* SSJCurveSuspensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C53402064B30C005546DE /* SSJCurveSuspensionView.m */; };
+		7D7C534A2064B30C005546DE /* SSJCurveAnchorSuspensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C53422064B30C005546DE /* SSJCurveAnchorSuspensionView.m */; };
+		7D7C534B2064B30C005546DE /* SSJCurveGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C53432064B30C005546DE /* SSJCurveGridView.m */; };
+		7D7C534C2064B30C005546DE /* SSJCurveGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C53442064B30C005546DE /* SSJCurveGraphView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,6 @@
 		7D6DA86C20623D600036BBA0 /* CurveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D6DA87020623D600036BBA0 /* CurveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurveDemoUITests.m; sourceTree = "<group>"; };
 		7D6DA87220623D600036BBA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D6DA88120623D7C0036BBA0 /* SSJCurveGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJCurveGraphView.m; sourceTree = "<group>"; };
-		7D6DA88820623D7C0036BBA0 /* SSJCurveGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJCurveGraphView.h; sourceTree = "<group>"; };
 		7D6DA89520623DC10036BBA0 /* SSJLayerAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJLayerAddition.m; sourceTree = "<group>"; };
 		7D6DA89620623DC10036BBA0 /* SSJViewAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJViewAddition.m; sourceTree = "<group>"; };
 		7D6DA89720623DC10036BBA0 /* SSJLayerAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJLayerAddition.h; sourceTree = "<group>"; };
@@ -74,19 +72,21 @@
 		7D6DA8A320623F810036BBA0 /* NSString+MoneyDisplayFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MoneyDisplayFormat.h"; sourceTree = "<group>"; };
 		7D6DA8A520623FC80036BBA0 /* SSJUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSJUtil.h; sourceTree = "<group>"; };
 		7D6DA8A620623FC80036BBA0 /* SSJUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSJUtil.m; sourceTree = "<group>"; };
-		7DD53DD3206495000027B178 /* SSJCurveConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSJCurveConst.h; sourceTree = "<group>"; };
-		7DD53DD5206495B90027B178 /* SSJCurveDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJCurveDot.m; sourceTree = "<group>"; };
-		7DD53DD6206495B90027B178 /* SSJCurveSuspensionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJCurveSuspensionView.h; sourceTree = "<group>"; };
-		7DD53DD7206495B90027B178 /* SSJCurveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJCurveCell.m; sourceTree = "<group>"; };
-		7DD53DD8206495B90027B178 /* SSJCurveGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJCurveGridView.h; sourceTree = "<group>"; };
-		7DD53DD9206495B90027B178 /* SSJCurveAnchorSuspensionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJCurveAnchorSuspensionView.h; sourceTree = "<group>"; };
-		7DD53DDA206495B90027B178 /* SSJCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJCurveView.m; sourceTree = "<group>"; };
-		7DD53DDB206495B90027B178 /* SSJCurveDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJCurveDot.h; sourceTree = "<group>"; };
-		7DD53DDC206495B90027B178 /* SSJCurveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJCurveCell.h; sourceTree = "<group>"; };
-		7DD53DDD206495B90027B178 /* SSJCurveSuspensionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJCurveSuspensionView.m; sourceTree = "<group>"; };
-		7DD53DDE206495B90027B178 /* SSJCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJCurveView.h; sourceTree = "<group>"; };
-		7DD53DDF206495B90027B178 /* SSJCurveAnchorSuspensionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJCurveAnchorSuspensionView.m; sourceTree = "<group>"; };
-		7DD53DE0206495B90027B178 /* SSJCurveGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJCurveGridView.m; sourceTree = "<group>"; };
+		7D7C53362064B30C005546DE /* SSJCurveGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJCurveGraphView.h; sourceTree = "<group>"; };
+		7D7C53382064B30C005546DE /* SSJCurveDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJCurveDot.m; sourceTree = "<group>"; };
+		7D7C53392064B30C005546DE /* SSJCurveSuspensionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJCurveSuspensionView.h; sourceTree = "<group>"; };
+		7D7C533A2064B30C005546DE /* SSJCurveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJCurveCell.m; sourceTree = "<group>"; };
+		7D7C533B2064B30C005546DE /* SSJCurveGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJCurveGridView.h; sourceTree = "<group>"; };
+		7D7C533C2064B30C005546DE /* SSJCurveAnchorSuspensionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJCurveAnchorSuspensionView.h; sourceTree = "<group>"; };
+		7D7C533D2064B30C005546DE /* SSJCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJCurveView.m; sourceTree = "<group>"; };
+		7D7C533E2064B30C005546DE /* SSJCurveDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJCurveDot.h; sourceTree = "<group>"; };
+		7D7C533F2064B30C005546DE /* SSJCurveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJCurveCell.h; sourceTree = "<group>"; };
+		7D7C53402064B30C005546DE /* SSJCurveSuspensionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJCurveSuspensionView.m; sourceTree = "<group>"; };
+		7D7C53412064B30C005546DE /* SSJCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJCurveView.h; sourceTree = "<group>"; };
+		7D7C53422064B30C005546DE /* SSJCurveAnchorSuspensionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJCurveAnchorSuspensionView.m; sourceTree = "<group>"; };
+		7D7C53432064B30C005546DE /* SSJCurveGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJCurveGridView.m; sourceTree = "<group>"; };
+		7D7C53442064B30C005546DE /* SSJCurveGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSJCurveGraphView.m; sourceTree = "<group>"; };
+		7D7C53452064B30C005546DE /* SSJCurveConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSJCurveConst.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +137,8 @@
 		7D6DA84B20623D600036BBA0 /* CurveDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7D7C53352064B30C005546DE /* SSJCurveGraphView */,
 				7D6DA89420623DC10036BBA0 /* Additions */,
-				7D6DA87E20623D7C0036BBA0 /* SSJReportFormsCurveGraphView */,
 				7D6DA84C20623D600036BBA0 /* AppDelegate.h */,
 				7D6DA84D20623D600036BBA0 /* AppDelegate.m */,
 				7D6DA84F20623D600036BBA0 /* ViewController.h */,
@@ -173,17 +173,6 @@
 			path = CurveDemoUITests;
 			sourceTree = "<group>";
 		};
-		7D6DA87E20623D7C0036BBA0 /* SSJReportFormsCurveGraphView */ = {
-			isa = PBXGroup;
-			children = (
-				7DD53DD4206495B90027B178 /* Private */,
-				7DD53DD3206495000027B178 /* SSJCurveConst.h */,
-				7D6DA88820623D7C0036BBA0 /* SSJCurveGraphView.h */,
-				7D6DA88120623D7C0036BBA0 /* SSJCurveGraphView.m */,
-			);
-			path = SSJReportFormsCurveGraphView;
-			sourceTree = "<group>";
-		};
 		7D6DA89420623DC10036BBA0 /* Additions */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,21 +188,32 @@
 			path = Additions;
 			sourceTree = "<group>";
 		};
-		7DD53DD4206495B90027B178 /* Private */ = {
+		7D7C53352064B30C005546DE /* SSJCurveGraphView */ = {
 			isa = PBXGroup;
 			children = (
-				7DD53DD9206495B90027B178 /* SSJCurveAnchorSuspensionView.h */,
-				7DD53DDF206495B90027B178 /* SSJCurveAnchorSuspensionView.m */,
-				7DD53DDC206495B90027B178 /* SSJCurveCell.h */,
-				7DD53DD7206495B90027B178 /* SSJCurveCell.m */,
-				7DD53DDB206495B90027B178 /* SSJCurveDot.h */,
-				7DD53DD5206495B90027B178 /* SSJCurveDot.m */,
-				7DD53DD8206495B90027B178 /* SSJCurveGridView.h */,
-				7DD53DE0206495B90027B178 /* SSJCurveGridView.m */,
-				7DD53DD6206495B90027B178 /* SSJCurveSuspensionView.h */,
-				7DD53DDD206495B90027B178 /* SSJCurveSuspensionView.m */,
-				7DD53DDE206495B90027B178 /* SSJCurveView.h */,
-				7DD53DDA206495B90027B178 /* SSJCurveView.m */,
+				7D7C53372064B30C005546DE /* Private */,
+				7D7C53362064B30C005546DE /* SSJCurveGraphView.h */,
+				7D7C53442064B30C005546DE /* SSJCurveGraphView.m */,
+				7D7C53452064B30C005546DE /* SSJCurveConst.h */,
+			);
+			path = SSJCurveGraphView;
+			sourceTree = "<group>";
+		};
+		7D7C53372064B30C005546DE /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				7D7C533C2064B30C005546DE /* SSJCurveAnchorSuspensionView.h */,
+				7D7C53422064B30C005546DE /* SSJCurveAnchorSuspensionView.m */,
+				7D7C533F2064B30C005546DE /* SSJCurveCell.h */,
+				7D7C533A2064B30C005546DE /* SSJCurveCell.m */,
+				7D7C533E2064B30C005546DE /* SSJCurveDot.h */,
+				7D7C53382064B30C005546DE /* SSJCurveDot.m */,
+				7D7C533B2064B30C005546DE /* SSJCurveGridView.h */,
+				7D7C53432064B30C005546DE /* SSJCurveGridView.m */,
+				7D7C53392064B30C005546DE /* SSJCurveSuspensionView.h */,
+				7D7C53402064B30C005546DE /* SSJCurveSuspensionView.m */,
+				7D7C53412064B30C005546DE /* SSJCurveView.h */,
+				7D7C533D2064B30C005546DE /* SSJCurveView.m */,
 			);
 			path = Private;
 			sourceTree = "<group>";
@@ -350,20 +350,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D6DA85120623D600036BBA0 /* ViewController.m in Sources */,
-				7DD53DE3206495B90027B178 /* SSJCurveView.m in Sources */,
+				7D7C534B2064B30C005546DE /* SSJCurveGridView.m in Sources */,
 				7D6DA8A020623EF80036BBA0 /* SSJArrayAddition.m in Sources */,
+				7D7C53462064B30C005546DE /* SSJCurveDot.m in Sources */,
 				7D6DA85C20623D600036BBA0 /* main.m in Sources */,
 				7D6DA8A420623F810036BBA0 /* NSString+MoneyDisplayFormat.m in Sources */,
-				7DD53DE5206495B90027B178 /* SSJCurveAnchorSuspensionView.m in Sources */,
-				7D6DA88D20623D7C0036BBA0 /* SSJCurveGraphView.m in Sources */,
-				7DD53DE6206495B90027B178 /* SSJCurveGridView.m in Sources */,
+				7D7C53482064B30C005546DE /* SSJCurveView.m in Sources */,
 				7D6DA89920623DC10036BBA0 /* SSJLayerAddition.m in Sources */,
-				7DD53DE1206495B90027B178 /* SSJCurveDot.m in Sources */,
-				7DD53DE4206495B90027B178 /* SSJCurveSuspensionView.m in Sources */,
+				7D7C534A2064B30C005546DE /* SSJCurveAnchorSuspensionView.m in Sources */,
+				7D7C53472064B30C005546DE /* SSJCurveCell.m in Sources */,
+				7D7C534C2064B30C005546DE /* SSJCurveGraphView.m in Sources */,
 				7D6DA84E20623D600036BBA0 /* AppDelegate.m in Sources */,
 				7D6DA8A720623FC80036BBA0 /* SSJUtil.m in Sources */,
+				7D7C53492064B30C005546DE /* SSJCurveSuspensionView.m in Sources */,
 				7D6DA89A20623DC10036BBA0 /* SSJViewAddition.m in Sources */,
-				7DD53DE2206495B90027B178 /* SSJCurveCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
